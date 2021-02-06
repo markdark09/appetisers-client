@@ -22,7 +22,7 @@ Vue.component('snackbar', Snackbar)
 Vue.component('ValidationProvider', ValidationProvider)
 
 Vue.config.productionTip = false
-axios.defaults.baseURL = 'http://localhost:8000/'
+axios.defaults.baseURL = 'https://phplaravel-154024-1747013.cloudwaysapps.com/'
 
 // Check tokens if expired or not.
 require('./store/login/subscriber')
